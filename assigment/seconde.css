@@ -1,0 +1,174 @@
+ .container{
+  display: flex;
+  flex-direction: column;
+  height: 400vh;
+ 
+}
+  
+ 
+ 
+ #section1 {
+    background-image: url('./WhatsApp\ Image\ 2023-09-13\ at\ 16.06.25.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+  }
+  h1,h5{
+    color: #fff; /* defini la couleur du text dans h1 et h2 */
+    text-align: center; /*aligne le text dans h1 et h2  au centre de la page */
+    padding: 1%; /* pour ajuster le h1 et h2 vers le bas*/
+}
+
+.info{
+    text-align: center; /* ajuster le button poussoir au milieu de la page*/
+padding: 10%;
+}
+
+
+
+
+   #section2{
+    background-color: white;
+    position: relative;
+    background-repeat: no-repeat;
+  }
+
+
+  #section3{
+    background-color: rgb(205, 157, 109);
+    position: relative;
+    background-repeat: no-repeat;
+   }
+
+  /* pour les menus d;en haut*/
+
+  a{
+    color: white;
+    
+}
+
+/* Aligner les éléments en haut de la page */
+nav{
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+}
+   
+
+nav ul{
+    list-style-type: none;
+    padding: 1px; /* pour ajuster les d'en tete vers le bas*/
+    
+}
+
+nav li {
+   display: inline;
+   margin-right: 60px; /* pour ajuster les intervales entre les menus */
+   justify-content: space-around; 
+}
+
+svg {
+height: 50px;
+width: 50px;
+margin-left: 10%;
+}
+
+.menu {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 20%;
+ top: 490px;
+}
+.box {
+  height: 130px;
+  width: 170px;
+  background: white;
+  box-shadow: 10px 10px 50px;
+}
+.box1 {
+  height: 150px;
+  width: 170px;
+  background: rgb(65, 10, 216);
+  box-shadow: 10px 10px 50px;
+}
+.choose {
+  text-align: center;
+  color: blue;
+}
+.photo {
+position: relative;
+}
+.image2{
+  position: absolute;
+  left: 2px;
+  top: 40px;
+}
+
+.image1 {
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+.image3 {
+  position: absolute;
+  left: 50px;
+  top: 70px;
+ }
+
+
+ .text {
+  position: absolute;
+  right: 250px;
+  top: 850px;
+ }
+
+ .image4 {
+  position: absolute;
+  left: 50px;
+  top: 70px;
+ }
+ .image5 {
+  position: absolute;
+  left: 50px;
+  top: 70px;
+ }
+
+ .text-box {
+  border: 2px solid #000; /* Largeur et couleur de la bordure */
+    padding: 10px; /* Espacement intérieur pour séparer le texte de la bordure */
+    width: 300px; /* Largeur de la zone de texte encadrée (ajustez selon vos besoins) */
+    margin: 10px; /* Marge autour de la zone de texte encadrée (ajustez selon vos besoins) */
+ }
+
+ #section4{
+  background-color: rgb(255, 0, 0);
+ }
+
+
+
+ 
+ .box3 {
+  height: 150px;
+  width: 170px;
+  background: rgb(245, 244, 248);
+  box-shadow: 10px 10px 50px;
+}
+.box3:hover{
+  background-color: blue;
+  cursor: pointer;
+  color: rgb(84, 13, 239);
+  height: 170px;
+  width: 170px;
+}
+.box4  {
+  height: 150px;
+  width: 170px;
+  background: rgb(239, 238, 242);
+  box-shadow: 10px 10px 50px;
+}
+.box4:hover{
+  background-color: blue;
+  cursor: pointer;
+  color: rgb(84, 13, 239);
+  height: 170px;
+  width: 170px;
